@@ -104,8 +104,8 @@ fs.readdir("./commands/", (err, files) => {
 
 //events
 
-client.on("guildMemberAdd", member =>require("./events/guildmemberAdd.js")(client, member));
-client.on("guildMemberRemove", member =>require("./events/guildmemberRemove.js")(client, member));
+//client.on("guildMemberAdd", member =>require("./events/guildmemberAdd.js")(client, member));
+//client.on("guildMemberRemove", member =>require("./events/guildmemberRemove.js")(client, member));
 
 client.on("message", msg => {
     if (msg.channel.type === "dm") return undefined;
