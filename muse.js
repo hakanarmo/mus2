@@ -9,7 +9,7 @@ const configs = {
 }
 //const { TOKEN, GOOGLE_API_KEY, DBL_API } = configs;
 
-
+/*
 const http = require('http');
 const express = require('express');
 const app = express();
@@ -21,7 +21,7 @@ app.listen(process.env.PORT);
 setInterval(() => {
   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
 }, 280000);
-
+*/
 
 const { TOKEN, GOOGLE_API_KEY } = configs;
 const YouTube = require('simple-youtube-api');
