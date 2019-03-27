@@ -49,7 +49,7 @@ client.on('error', console.error);
 
 client.on(`ready`, (member) => {
 	console.log(`${client.user.username} is online!`);
-	client.user.setActivity(`${config.PREFIX}help || Playing on ${client.guilds.size} Servers`, "LISTENING")
+	client.user.setActivity(`${config.PREFIX}help ||`, "LISTENING")
 });
 
 client.on('disconnect', () => console.log('I just disconnected, making sure you know, I will reconnect now...'));
